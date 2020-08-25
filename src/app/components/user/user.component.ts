@@ -18,6 +18,8 @@ export class UserComponent {
 
     //Methods
     constructor() {
-
+        this.user = {
+            firstName: 'John'
+        }
     }
 }
