@@ -12,14 +12,17 @@ import { Component } from '@angular/core';
 //create class
 export class UserComponent {
     //Properties
-    firstName = 'John';
-    lastName = 'Doe';
-    age = 30;
-
+    user: {
+        firstName: string,
+        lastName: string,
+        age: number,
+    }
     //Methods
     constructor() {
         this.user = {
-            firstName: 'John'
+            firstName: 'John',
+            lastName: 'Doe',
+            age: 20
         }
     }
 }
