@@ -16,13 +16,14 @@ export class UserComponent {
         firstName: string,
         lastName: string,
         age: number,
+        address: 
     }
     //Methods
     constructor() {
         this.user = {
             firstName: 'John',
             lastName: 'Doe',
-            age: 20
+            age: 201
         }
     }
 }
