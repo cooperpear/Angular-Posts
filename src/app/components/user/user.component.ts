@@ -23,7 +23,7 @@ export class UserComponent {
         this.user = {
             firstName: 'John',
             lastName: 'Doe',
-            age: 20
+            age: 20649
         }
     }
 }
